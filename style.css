@@ -75,12 +75,23 @@ div.col-sm-12 div.jumbotron{
     position: relative;
     bottom: 0;
 }
-
-@media(max-width:500px){
-    .navbar {
-        background-color: rgb(3, 156, 156);  
+/* Not Sure why this media query isnt working 
+if the below ".top-nav" part is commented it out
+then the media query works, but then it doesnt have 
+full screen format*/
+@media screen and (max-width : 600px) {
+   div div nav.top-nav  {
+        background-color: rgb(3, 156, 156); 
+        padding-top: 1px; padding-bottom: 1px; 
     }
 }
+
+
+.top-nav{
+    background-color:#f8f9fa;
+    padding-top: 1px; padding-bottom: 1px;
+}
+
 
 .selected-image{
     border: 2px solid rgb(3, 156, 156);
@@ -93,3 +104,4 @@ h1.display-4{
     font-size: 30px;
     font-weight: 700;
 }
+
