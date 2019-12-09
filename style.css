@@ -1,0 +1,95 @@
+/* Format for left jumbotron on main page */
+/* #summary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+/* div.col-lg-5 div.jumbotron{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+div.col-lg-7 div.jumbotron{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+} */
+
+div.container {
+   margin: 0;
+   padding: 0,0,0,0;
+   border: 0;
+
+}
+
+div.col-sm-12 div.jumbotron{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#summary-img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    size: auto;
+    /* padding: 5px; */
+}
+
+.jumbotron{
+    background-color:white;
+}
+
+.navbar-brand{
+    background-color: rgb(3, 156, 156);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+
+#header-title{
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+#footer-txt {
+    color: rgb(82, 82, 82);
+}
+
+#footer-nav {
+    background-color: rgb(146, 145, 145);
+    position: relative;
+    bottom: 0;
+}
+
+@media(max-width:500px){
+    .navbar {
+        background-color: rgb(3, 156, 156);  
+    }
+}
+
+.selected-image{
+    border: 2px solid rgb(3, 156, 156);
+    /* border: rgb(3, 156, 156); */
+
+}
+
+h1.display-4{
+    color: rgb(3, 156, 156);
+    font-size: 30px;
+    font-weight: 700;
+}

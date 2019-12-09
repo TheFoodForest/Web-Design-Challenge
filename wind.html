@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latitude</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body style="background-color:rgb(218, 218, 218);">
+<!-- Header Navbar for first row-->  
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top: 1px; padding-bottom: 1px;">
+            <a class="navbar-brand" href="index.html"><strong id="header-title">Latitude</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="temp.html">Tempurature</a>
+                    <a class="dropdown-item" href="wind.html">Wind</a>
+                    <a class="dropdown-item" href="cloud.html">Clouds</a>
+                    <a class="dropdown-item" href="humid.html">Humidity</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comp.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+</div>
+<!--container for main page content-->
+<!-- <div class="container"> -->
+<!--row with two columns for main content of home page-->
+<div class="row">
+    <div class="col-lg-1 col-sm-0"></div>
+    <!--Left Jumbotron-->
+    <div class="col-lg-6 col-sm-12">
+        <div class="jumbotron" >
+            <h1 class="display-4">Wind Speed Across Latitudes</h1>
+            <hr class="my-4">
+            <!-- Row within jumbo for image and first paragraph-->
+            <div class="row">
+
+            <div class="col-lg-12 col-sm-12">
+                <img src="Wind.png" alt="Wind vs Latitude" id="summary-img">
+            </div>
+            
+           
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rem a minus repellendus qui quae impedit, 
+                    exercitationem iure dolor asperiores blanditiis perferendis harum explicabo labore. Laborum, necessitatibus. 
+                    Dolore, quod cum?
+                </p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <!--Right Jumbotron-->
+    <div class="col-lg-4 col-sm-12">
+            <div class="jumbotron" >
+                <h1 class="display-4">Visualizations</h1>
+                <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+                <hr class="my-4">
+                <!--Two rows with two columns within jumbotron for 4 images-->
+                <div class="row">
+                    <div class="col-lg-6" style="padding-left: 5px; padding-right: 5px;">
+                        <a  href="temp.html"><img id="summary-img" src="Tempurature.png" alt="Temperature across latitude" width="150px" height="150px"></a>
+                    </div>
+                    <div class="col-lg-6  selected-image" style="padding-left: 5px; padding-right: 5px;">
+                            <a href="wind.html"><img id="summary-img" src="Wind.png" alt="Wind across latitude" width="150px" height="150px"></a>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-lg-6" style="padding-left: 5px; padding-right: 5px;">
+                                <a href="humid.html"><img id="summary-img" src="Humidity.png" alt="Humidity across latitude" width="150px" height="150px"></a>
+                            </div>
+                            <div class="col-lg-6" style="padding-left: 5px; padding-right: 5px;">
+                                <a href="cloud.html"><img id="summary-img" src="Cloudiness.png" alt="Temperature across latitude" width="150px" height="150px"></a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+    <div class="col-lg-1 col-sm-0"></div>
+</div>
+<!-- </div> -->
+
+<div class="row">
+        <div class="col-lg-12"  style="border-top: 5px  rgb(3, 156, 156);">
+                <nav id="footer-nav" class="navbar navbar-light d-flex justify-content-center">
+                        <div class="d-flex p-2 bd-highlight" id="footer-txt">Contact Graham -<a href = "mailto: grahamelpenrose@gmail.com">grahamelpenrose@gmail.com </a> </div>
+                      </nav>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
