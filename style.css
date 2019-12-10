@@ -196,3 +196,11 @@ div table.table{
     margin-right: auto;
     margin-left: auto;
 }
+
+@media screen and (max-width:1250px) and (min-width:992px){
+    div div p.home-p{
+        margin-left: 45px!important;
+        padding-left:5px;
+        
+    }
+}
