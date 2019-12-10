@@ -34,15 +34,38 @@ div.col-sm-12 div.jumbotron{
     margin-right: 5px;
 }
 
+@media screen and (max-width: 600px){
+.main-img{
+    height: 250px;
+    width: 250px;
+}
+}
 
+
+@media screen and (max-width: 1400px) and (min-width: 950px){
+    .main-img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1460px) and (min-width: 950px){
+    .viz-img{
+        height:120px;
+        width: 120px;
+    }
+}
 #summary-img{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    size: auto;
-    /* padding: 5px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* size: auto; */
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .jumbotron{
@@ -58,12 +81,30 @@ div.col-sm-12 div.jumbotron{
     margin-right: 0;
     margin-left: 50px;
 }
-
-
-#header-title{
+@media screen and (max-width:600px){
+    div div nav a.navbar-brand {
+        background-color: rgb(3, 156, 156);
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: 0;
+        margin-left: 50px; 
+    }
+}
+ .header-title{
     font-weight: 700;
     color: white;
     font-size: 30px;
+    font-family: Georgia,Times,Times New Roman,serif
+ }
+@media screen and (max-width:600px){
+div nav a strong.header-title{
+    font-weight: 700;
+    color: white;
+    font-size: 28px;
+    font-family: Georgia,Times,Times New Roman,serif
+}
 }
 
 #footer-txt {
@@ -103,5 +144,33 @@ h1.display-4{
     color: rgb(3, 156, 156);
     font-size: 30px;
     font-weight: 700;
+    font-family: Georgia,Times,Times New Roman,serif
 }
 
+h5 {
+    color: rgb(3, 156, 156);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 1px;
+    border: 0;
+    font-family: Georgia,Times,Times New Roman,serif
+}
+/* 
+#small-top{
+    margin-top: 3px!important;
+} */
+
+
+div ul li a.nav-link:active {
+    background-color:rgb(218, 218, 218);
+}
+
+/* div ul li a.nav-link:hover {
+    background-color:rgb(218, 218, 218);
+}
+
+div ul li a.nav-link:focus {
+    background-color:rgb(218, 218, 218);
+} */
