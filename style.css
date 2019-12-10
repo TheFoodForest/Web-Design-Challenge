@@ -55,6 +55,14 @@ div.col-sm-12 div.jumbotron{
         width: 120px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .comp-img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
 #summary-img{
     display: block;
     margin-right: auto;
@@ -81,7 +89,7 @@ div.col-sm-12 div.jumbotron{
     margin-right: 0;
     margin-left: 50px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:991px){
     div div nav a.navbar-brand {
         background-color: rgb(3, 156, 156);
         padding-top: 3px;
@@ -98,7 +106,7 @@ div.col-sm-12 div.jumbotron{
     font-size: 30px;
     font-family: Georgia,Times,Times New Roman,serif
  }
-@media screen and (max-width:600px){
+@media screen and (max-width:991px){
 div nav a strong.header-title{
     font-weight: 700;
     color: white;
@@ -117,11 +125,8 @@ div nav a strong.header-title{
     bottom: 0; */
     width: 100%;
 }
-/* Not Sure why this media query isnt working 
-if the below ".top-nav" part is commented it out
-then the media query works, but then it doesnt have 
-full screen format*/
-@media screen and (max-width : 600px) {
+
+@media screen and (max-width : 991px) {
    div div nav.top-nav  {
         background-color: rgb(3, 156, 156); 
         padding-top: 1px; padding-bottom: 1px; 
@@ -164,15 +169,22 @@ h5 {
 } */
 
 
-div ul li a.nav-link:active {
-    background-color:rgb(218, 218, 218);
-}
-
-/* div ul li a.nav-link:hover {
-    background-color:rgb(218, 218, 218);
-}
-
-div ul li a.nav-link:focus {
+/* div ul li a.nav-link:active {
     background-color:rgb(218, 218, 218);
 } */
+
+div ul li a.nav-link:hover {
+    background-color:rgb(218, 218, 218);
+}
+
+/* div ul li a.nav-link:focus {
+    background-color:rgb(218, 218, 218);
+} */
+
+@media screen and (max-width:703px) and (min-width:601px){
+    .reg-img{
+        height: 400px;
+        widows: 400px;
+    }
+}
 
