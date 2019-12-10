@@ -113,8 +113,9 @@ div nav a strong.header-title{
 
 #footer-nav {
     background-color: rgb(146, 145, 145);
-    position: relative;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
 }
 /* Not Sure why this media query isnt working 
 if the below ".top-nav" part is commented it out
@@ -174,3 +175,4 @@ div ul li a.nav-link:active {
 div ul li a.nav-link:focus {
     background-color:rgb(218, 218, 218);
 } */
+
