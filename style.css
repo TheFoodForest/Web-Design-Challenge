@@ -76,6 +76,20 @@ div.col-sm-12 div.jumbotron{
     padding-top: 10px;
 }
 
+#summary-img-home{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* size: auto; */
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+
 .jumbotron{
     background-color:white;
 }
@@ -204,3 +218,17 @@ div table.table{
         
     }
 }
+
+.first-word{
+    color: rgb(3, 156, 156);
+    font-size: 25px;
+    font-weight: 650;
+    font-family: Georgia,Times,Times New Roman,serif
+}
+
+#home-para{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+

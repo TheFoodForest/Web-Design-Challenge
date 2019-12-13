@@ -58,13 +58,12 @@
             <div class="row">
 
             <div class="col-lg-5 col-md-12 col-sm-12">
-                <img src="Tempurature.png" alt="Tempurature vs Latitude" width="250px" height="250px" id="summary-img">
+                <img src="Tempurature.png" alt="Tempurature vs Latitude" width="300px" height="300px" id="summary-img-home">
             </div>
-            
-            <div class="col-lg-7 col-md-12 col-sm-12">
-                <p class="home-p">
-                    <strong>Lorem</strong> ipsum dolor, sit amet consectetur adipisicing elit. Illum quaerat vero mollitia ex qui commodi similique consequatur 
-                    blanditiis facilis, dolorum enim, ipsum laboriosam tempora cum maiores et, reiciendis recusandae nobis.
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="home-p" id="home-para">
+                    <strong class="first-word">Latitude </strong>is the angular distance, north or south, from the equator to a point on the Earth’s surface.  In this project, we set out to analyze how weather changes across latitudes.  To do so, we gathered weather data from more than 600 cities and visualized the trends in the data.  
                 </p>
             </div>
            
@@ -73,9 +72,7 @@
           <div class="row">
             <div class="col-lg-12">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rem a minus repellendus qui quae impedit, 
-                    exercitationem iure dolor asperiores blanditiis perferendis harum explicabo labore. Laborum, necessitatibus. 
-                    Dolore, quod cum?
+                  To collect this data, we pulled data from the <a href="https://openweathermap.org/">OpenWeatherMap</a> API, more specifically,we used the openweathermapy python library to simplify the process.  Once the data was collected, we used Matplotlib visualize the different relationships between weather and latitude that were available in the data we collected.  Finally, we fit second, third, and fourth degree polynomial regression lines to the data to see if that could help point out any less obvious trends in the data.  Both the scipy and numpy libraries were used in fitting these regression lines.  The measurements we used to describe the weather were: temperature, wind, humidity, and cloudiness.  This website provides the source data, the visualizations of the data, as well as explanations and descriptions of the trends observed.
                 </p>
             </div>
           </div>
