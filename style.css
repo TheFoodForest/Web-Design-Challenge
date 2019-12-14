@@ -186,10 +186,10 @@ h5 {
 /* div ul li a.nav-link:active {
     background-color:rgb(218, 218, 218);
 } */
-
+/* 
 div ul li a.nav-link:hover {
     background-color:rgb(218, 218, 218);
-}
+} */
 
 /* div ul li a.nav-link:focus {
     background-color:rgb(218, 218, 218);
@@ -206,7 +206,7 @@ tr:hover{
     background-color:rgb(218, 218, 218);
 }
 
-.show{
+li.show a.nav-link{
     background-color:rgb(218, 218, 218);
 }
 
