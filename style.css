@@ -206,6 +206,10 @@ tr:hover{
     background-color:rgb(218, 218, 218);
 }
 
+.show{
+    background-color:rgb(218, 218, 218);
+}
+
 div table.table{
     margin-right: auto;
     margin-left: auto;
